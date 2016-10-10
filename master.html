@@ -1,0 +1,177 @@
+<html>
+<head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="viewport" content = "width = device-width, initial-scale = 1.0, minimum-scale = 1, maximum-scale = 1, user-scalable = no" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="css/material.min.css">
+<script src="js/jquery-2.2.4.min.js"></script>
+<link rel="stylesheet" href="css/mdl-jquery-modal-dialog.css">
+<script src="js/mdl-jquery-modal-dialog.js"></script>
+<script defer src="js/material.min.js"></script>
+
+   <style>
+    #buscar {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 150px;
+      z-index: 900;
+    }
+.demo-card-square.mdl-card {
+  width: 280px;
+  height: 300px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  
+}
+
+</style>
+</head>
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+     
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation ">
+            <a href="#" class="mdl-button mdl-js-button"> Acceder<i class="material-icons">person</i></a>
+            
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Menu</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href=""><i class="material-icons">directions_car</i>Crear</a>
+      <a class="mdl-navigation__link" href=""><i class="material-icons">apps</i>Mis Vehiculos</a>
+      <a class="mdl-navigation__link" href=""><i class="material-icons">help</i>Ayuda</a>
+      
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+      <center><img src="images/logo.jpg"></center>
+    <div class="page-content" style="margin-left: 50px; margin-right: 50px; ">    
+        <!-- Your content goes here -->
+        <h3>Los mas recientes</h3>
+        <hr>
+        <div class="mdl-grid">
+            
+                <div class="mdl-cell  mdl-cell--3-col">
+                    <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand" style="background:url('images/carros/ejemplo1.jpg')  no-repeat #fff">
+                        <h2 class="mdl-card__title-text" >Lexus</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <b>LS-500 2012</b><br>
+                         RD$500,000.00
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                     Mas..
+                    </a>
+                     </div>
+                  </div>
+                </div>
+                 <div class="mdl-cell  mdl-cell--3-col">
+                     <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand" style="background:url('images/carros/ejemplo2.jpg')  no-repeat #fff">
+                        <h2 class="mdl-card__title-text" >Toyota</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <b>Rav4 2017</b><br>
+                         US$35,000.00
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                     Mas..
+                    </a>
+                     </div>
+                  </div>
+                 </div>
+                <div class="mdl-cell m mdl-cell--3-col">
+                 <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand" style="background:url('images/carros/ejemplo3.jpg')  no-repeat #fff">
+                        <h2 class="mdl-card__title-text" >Jeep</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <b>Grand Cherokee 2017</b><br>
+                         US$45,000.00
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                     Mas..
+                    </a>
+                     </div>
+                  </div>
+                </div>
+                <div class="mdl-cell m mdl-cell--3-col">
+                 <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand" style="background:url('images/carros/ejemplo4.jpg')  no-repeat #fff">
+                        <h2 class="mdl-card__title-text" >Bentley</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <b>Continental Flying Spur</b><br>
+                         US$80,000.00
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                     Mas..
+                    </a>
+                     </div>
+                  </div>
+                </div>
+                <div class="mdl-cell m mdl-cell--3-col">
+                 <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand" style="background:url('images/carros/ejemplo3.jpg')  no-repeat #fff">
+                        <h2 class="mdl-card__title-text" >Jeep</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <b>Grand Cherokee 2017</b><br>
+                         US$45,000.00
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                     Mas..
+                    </a>
+                     </div>
+                  </div>
+                </div>
+            
+        </div>
+
+
+
+        
+    </div>
+  <button  id="buscar" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+            <i class="material-icons">search</i>
+    </button>
+  </main>
+  <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section"  >
+    <div class="mdl-logo" >icarrosrd.com</div>
+  </div>
+</footer>
+</div>
+  <script>
+    var textoBuscar;
+   $.get("dlBuscar.html", function(resp) {
+     textoBuscar=resp;
+});
+ $('#buscar').click(function () {
+        showDialog({
+            text: textoBuscar
+        })
+    });
+
+</script>
+</body>
+</html>
